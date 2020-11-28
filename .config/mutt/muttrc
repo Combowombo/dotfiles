@@ -1,0 +1,19 @@
+
+
+set folder = "imaps://lawrencelhe@gmail.com@imap.gmail.com:993"
+set smtp_url = "smtp://lawrencelhe@gmail.com@smtp.gmail.com:465"
+
+set smtp_pass = "Elg987789JfJfJf1."
+set imap_pass = "Elg987789JfJfJf1."
+
+set from = "lawrencelhe@gmail.com"
+
+set realname = "Lawrence He"
+set spoolfile = "+INBOX"
+set record = "+Sent"
+set trash = "+Trash"
+set postponed = "+Drafts"
+
+mailboxes =INBOX =Sent =Trash =Drafts =Junk =Other
+
+source colors.muttrc

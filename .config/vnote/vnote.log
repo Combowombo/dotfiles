@@ -1,0 +1,4 @@
+Info:(main.cpp:211) VNote started "2.10" "Fri Nov 20 14:44:13 2020"
+Info:(main.cpp:223) openGL 0
+Info:(main.cpp:224) openSSL "Secure Transport, macOS 10.15" 0
+Warning:(vutils.cpp:1258) fail to delete file "/Users/lawrence/.config/vnote/resources/common.css"
