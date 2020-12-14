@@ -1,0 +1,4 @@
+#! /bin/sh
+
+# Echo Command
+defaults read -g AppleInterfaceStyle && echo " " > ~/.config/kitty/kitty.conf || cat ~/.config/kitty/kitty-background > ~/.config/kitty/kitty.conf

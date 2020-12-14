@@ -3,7 +3,6 @@
 # global settings
 yabai -m config mouse_follows_focus          off
 
-
 yabai -m config window_topmost               on
 yabai -m config window_shadow                off
 yabai -m config window_opacity               on
@@ -33,5 +32,7 @@ yabai -m config window_gap                   0
 # rules
 yabai -m rule --add app="^System Preferences$" manage=off
 yabai -m rule --add app="^Streaks$" manage=off
+
+defaults write com.apple.finder DisableAllAnimations -bool true
 
 echo "yabai configuration loaded.."
